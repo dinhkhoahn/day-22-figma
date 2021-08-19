@@ -1,0 +1,234 @@
+@font-face {
+    font-family: "Sofia Pro";
+    src: url("../fonts/SofiaPro-Medium.woff2") format("woff2"),
+        url("../fonts/SofiaPro-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Sofia Pro";
+    src: url("../fonts/SofiaPro-Bold.woff2") format("woff2"),
+        url("../fonts/SofiaPro-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Circular Std";
+    src: url("../fonts/CircularStd-Medium.woff2") format("woff2"),
+        url("../fonts/CircularStd-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Sofia Pro", sans-serif;
+    font-size: 16px;
+    color: #000000;
+    font-weight: 500;
+    font-weight: normal;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.container {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.sidebar {
+    padding-right: 44px;
+    margin-right: 38px;
+}
+
+.logo {
+    max-width: 100px;
+    margin-top: 54px;
+    margin-bottom: 59px;
+}
+
+h2 {
+    font-size: 31px;
+    line-height: 1.6;
+    margin-bottom: 46px;
+}
+
+.category {
+    margin-bottom: 20px;
+}
+
+.category-link {
+    color: #000000;
+    font-family: "Sofia Pro";
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.category-link img {
+    width: 22px;
+    height: 22px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.img-help img {
+    width: 49px;
+    height: 49px;
+}
+
+.img-help {
+    position: absolute;
+    left: 0%;
+    bottom: -8px;
+}
+
+.text-help {
+    position: absolute;
+    left: 55px;
+    bottom: 5px;
+}
+
+.main {
+    /* flex: 1 0 0; */
+    width: 1151.11px;
+}
+
+.navbar,
+.menu,
+.actions {
+    display: flex;
+    align-items: center;
+}
+
+.navbar {
+    margin-top: 51px;
+    margin-bottom: 73px;
+}
+
+.menu {
+    margin-left: auto;
+}
+
+.input-group {
+    position: relative;
+}
+
+.input-group img {
+    position: absolute;
+    width: 24px;
+    margin-top: 2px;
+}
+
+.input-group input {
+    height: 26px;
+    font-family: "Circular Std";
+    padding-left: 40px;
+    border: 0;
+}
+
+.input-group input::placeholder {
+    color: rgba(0, 0, 0, 0.2);
+    font-family: "Circular Std";
+    font-weight: 500;
+    font-style: normal;
+}
+
+.menu-link {
+    font-family: "Circular Std";
+    font-weight: 500;
+    font-style: normal;
+    color: #000000;
+}
+
+.menu-item {
+    margin-left: 35px;
+    padding-bottom: 8px;
+    padding-right: 3px;
+}
+
+.menu-item:first-child {
+    border-bottom: 2.5px solid #000000;
+}
+
+.sidebar {
+    position: relative;
+}
+
+.help {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.actions img {
+    width: 24px;
+    margin-left: 26px;
+}
+
+.actions {
+    margin-left: 23px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.d-column {
+    flex-direction: column;
+}
+
+.j-between {
+    justify-content: space-between;
+}
+
+.row {
+    height: 400px;
+    overflow: hidden;
+    margin-bottom: 22px;
+}
+
+.row:last-child {
+    margin-bottom: 0;
+}
+
+.row > div {
+    flex-basis: 565px;
+}
+
+.banners-horizontal {
+    flex-direction: column;
+}
+
+.banner-h:first-child {
+    margin-bottom: 21px;
+}
+
+.banner-v:first-child {
+    margin-right: 22px;
+}
+
+.banner-v img {
+    height: 100%;
+}
